@@ -7,7 +7,6 @@ Principal Solutions Architect (Greater China) take-home submission. All records 
 - [Cloudflare sources and where they are used](submission/CLOUDFLARE_DOCS.md)
 - [Validation record](submission/VALIDATION.md)
 - [English code explanation](submission/KEY_CODE_LINE_BY_LINE_EN.md)
-- [Chinese/English code explanation](submission/KEY_CODE_LINE_BY_LINE.md)
 
 ## Run locally
 

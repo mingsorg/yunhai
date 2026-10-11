@@ -9,7 +9,7 @@ Reviewed on 11 October 2026 against the take-home requirements and the exact cle
 - The plan covers stakeholder discovery, pilot choice and deferrals, measurable targets, both-cloud regional architecture, Shanghai access gates, three risks, alternatives, rollout owners and product feedback.
 - The required slice contains a local Worker MCP server, one read tool and one write tool, synthetic identities/data, authorization outside the prompt, denied-write examples and a stated limitation.
 - The seven PDF pages were rendered and visually reviewed.
-- The English and Chinese/English code guides refer to the current required implementation. The optional approval extension is explicitly separated in the README.
+- The English code guide refers to the current required implementation. The optional approval extension is explicitly separated in the README.
 
 ## Links and source use
 
@@ -38,7 +38,7 @@ The core helper ran on localhost port 8793; the optional extension ran on 8795 t
 
 ## Repairs and upload contents
 
-- Removed README links to three absent files: the Chinese PDF, `KEY_CODE.md` and `CODE_FLOW.html`. The existing bilingual code guide remains available.
+- Removed README links to three absent files: the Chinese PDF, `KEY_CODE.md` and `CODE_FLOW.html`. The English code guide remains available.
 - Corrected the repository-root instructions to enter `submission/` before installing or running commands.
 - Added the English code-guide link and source-use map.
 - Replaced the old `test-ts.sh` process-killing walkthrough with an alias for the existing helper, which refuses a busy port and stops only its own server. Updated its README description.

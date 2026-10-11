@@ -146,6 +146,6 @@ After installation, `bash scripts/test-local.sh` runs the unit tests, type check
 
 For a step-by-step explanation of the optional extension, first run `pnpm native:dev`, then `python3 scripts/test_deployment.py --local`. This uses only Python's standard library and local synthetic identities. Cloud mode is unverified here; its module docstring describes prerequisites for an already-configured synthetic deployment.
 
-[English code guide](KEY_CODE_LINE_BY_LINE_EN.md) and [Chinese/English code guide](KEY_CODE_LINE_BY_LINE.md) explain the current required slice. They are supplementary reading.
+[English code guide](KEY_CODE_LINE_BY_LINE_EN.md) explains the current required slice. It is supplementary reading.
 
 The source-use map in [CLOUDFLARE_DOCS.md](CLOUDFLARE_DOCS.md) distinguishes PDF citations, implementation references and background material. [VALIDATION.md](VALIDATION.md) records the final submission checks.
