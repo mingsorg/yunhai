@@ -1,6 +1,6 @@
 # Yunhai agent tool standard
 
-Principal Solutions Architect (Greater China) take-home submission. All records and identities are synthetic.
+All records and identities are synthetic.
 
 - [Written plan, architecture diagrams and checklist](submission/Yunhai_Agent_Tool_Standard.pdf)
 - [Worker README: install, run and verify](submission/README.md)
