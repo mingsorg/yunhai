@@ -1,0 +1,9 @@
+node_modules/
+.pnpm-store/
+.wrangler/
+tmp/
+.DS_Store
+.env*
+.dev.vars*
+!*.example
+__pycache__/

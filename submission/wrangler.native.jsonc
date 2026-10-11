@@ -1,0 +1,28 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "yunhai-native-guardrail",
+  "main": "src/native/index.ts",
+  "compatibility_date": "2026-10-08",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
+  "vars": { "NATIVE_MODE": "fixture" },
+  "durable_objects": { "bindings": [{ "name": "GATES", "class_name": "NativeGate" }] },
+  "migrations": [{ "tag": "native-v1", "new_sqlite_classes": ["NativeGate"] }],
+  "observability": { "enabled": false },
+  "env": {
+    "cloudflare": {
+      "name": "yunhai-native-guardrail-cloudflare",
+      "workers_dev": false,
+      "vars": {
+        "NATIVE_MODE": "cloudflare",
+        "APP_HOST": "",
+        "ACCESS_TEAM_DOMAIN": "",
+        "ACCESS_AUD": ""
+      },
+      "ai": { "binding": "AI" },
+      "durable_objects": { "bindings": [{ "name": "GATES", "class_name": "NativeGate" }] },
+      "migrations": [{ "tag": "native-v1", "new_sqlite_classes": ["NativeGate"] }],
+      "observability": { "enabled": false }
+    }
+  }
+}
